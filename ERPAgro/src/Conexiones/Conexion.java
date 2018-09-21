@@ -31,7 +31,7 @@ public class Conexion {
            status= true;
        }catch(SQLException e){
            JOptionPane.showMessageDialog(null, "Error" + e.getMessage(),
-           "Error de conexion", JOptionPane.ERROR_MESSAGE);
+           "Error de conexion:", JOptionPane.ERROR_MESSAGE);
        }
        return conexion;
    }
